@@ -1,0 +1,28 @@
+{
+  "characters": {
+    "sectionTitle": "The Cast",
+    "intro": "The men and women caught in the crossroads.",
+    "list": [
+      {
+        "name": "Fitz",
+        "image": "assets/Fitz.jpg",
+        "tagline": "Great War veteran turned security manager. Reluctant hero with unshakeable loyalty."
+      },
+      {
+        "name": "Lotte", 
+        "image": "assets/Lotte.jpg",
+        "tagline": "German scholar driven from academia. Fighting the regime that destroyed her career."
+      },
+      {
+        "name": "Liz",
+        "image": "assets/Liz.jpg", 
+        "tagline": "Theatrical performer with perfect timing. Never met a dramatic moment she couldn't seize."
+      },
+      {
+        "name": "Milan",
+        "image": "assets/Milan.jpg",
+        "tagline": "Archaeologist who uncovered more than ancient history. His discovery changed everything."
+      }
+    ]
+  }
+}
