@@ -491,6 +491,20 @@ a:focus-visible {
 
 .novella-text {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.novella-description-block {
+  display: block;
+}
+
+.novella-signup-block {
+  background: rgba(255, 253, 248, 0.06);
+  border: 1px solid rgba(208, 164, 91, 0.18);
+  border-radius: 8px;
+  padding: 24px;
 }
 
 .novella-layout h2 {
@@ -735,23 +749,30 @@ a:focus-visible {
     text-align: center;
   }
 
-  /* Novella layout stacks */
-  .novella-layout {
-    flex-direction: column;
-    text-align: center;
-  }
+/* Novella layout stacks */
+.novella-layout {
+  flex-direction: column;
+  text-align: center;
+}
 
-  .novella-cover img {
-    width: 200px;
-  }
+.novella-cover img {
+  width: 200px;
+}
 
-  .novella-perks {
-    text-align: left;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.novella-text {
+  gap: 24px;
+}
 
+.novella-signup-block {
+  padding: 20px;
+}
+
+.novella-perks {
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
   /* Characters */
   .characters-grid {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
