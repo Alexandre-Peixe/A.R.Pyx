@@ -2,11 +2,14 @@
   "novella": {
     "heading": "Get the Novella — Free",
     "title": "Hic Non Sunt Dracones", 
-    "tagline": "1897. A fading learned society. A legendary major with one last gambit. And a young writer who really didn't sign up for this.",
+    "tagline": "London, 1897. The age of exploration is dying.",
     "description": [
-      "It's my homage to the adventure novels I wore out as a child: Haggard, Verne, Doyle, Kipling. The ones where men with excellent mustaches marched into unmapped territory and came back with stories that made London lean forward in its chair. I love those books. But I also wanted to write something that carried their pleasures—the crackling dialogue, the larger-than-life characters, the sense that the world still holds secrets, but giving it a modern readability.",
-      "The novella follows Major Jason Havelock, who may or may not be a living legend; his ragtag crew of misfits; and a young writer who discovers that volunteering for an expedition sounds much safer in a book than in the real world. Their destination: a lost city in the Brazilian wilderness, first glimpsed in a 1753 manuscript and never seen since. Their complication: the city entrance lies at the heart of the Canudos rebellion, and the army is on its way to level the place.",
-      "What happens next resists easy telling. Accounts contradict. Memories fail. Sixty years later, the narrator is still not sure. Neither am I. That's the point.",
+      "In the decadent halls of the St. James Society, clerks replace explorers. Discovery is measured in profit. But Major Jason Havelock—a veteran of debatable exploits and absolute conviction—refuses to live in a world without wonder.",
+      "When the Society's last expedition is cancelled, Havelock produces a forgotten map. It hints at a lost city deep in the Brazilian wilderness. His plan is simple. Reality couldn't be further from it.",
+      "The entrance to that lost city lies at the heart of the War of Canudos—a brutal civil war that has been raging for almost a year. After three disastrous expeditions, the Brazilian Army is preparing to level the rebel stronghold once and for all. Havelock's crew? A disgraced, trigger-happy lieutenant. A scarred mining engineer. A young clerk who has never left London.",
+	  "To reach their objective, these misfits must cross a battlefield, evade blockades and ambushes, and survive a climate that seems at war with everyone.",
+	  "At the dawn of industrial warfare, one old soldier is chasing a whisper from the blank spaces of our maps.",
+	  "<strong>The last charge of the light brigade is about to begin.", 
       "<strong>Not a prequel. Not a sequel. Just a story.</strong> My own take on classical adventure, and an invitation to think about what comes next."
     ],
     "offer": "Available free to newsletter subscribers.",
@@ -18,3 +21,5 @@
     "privacyNote": "No spam, ever. Unsubscribe anytime. Your email stays with me — I respect your privacy."
   }
 }
+
+

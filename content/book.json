@@ -3,12 +3,15 @@
     "sectionTitle": "The Novel",
     "title": "1934: Caught in the Crossroads",
     "genre": "Historical Thriller · Adventure · Archaeological Mystery",
+	 "tagline": "A relic from the Crusades resurfaces, threatening a world on the edge.",
+	
     "description": [
-      "1934, Ljubljana. A quiet museum presentation explodes into chaos when Nazi operatives steal a 17th-century Ottoman ledger. The document reveals a \"Hattin Treasure\" among the possessions of the Ottoman vizier during the 1683 Siege of Vienna. It can only refer to a large piece of the True Cross, lost during the Crusades. What power it actually holds—political, religious, symbolic—no one knows for sure. But enough people want it badly enough to kill. Fitzwilliam van Tandig, a Great War veteran turned security manager, sent to represent the construction company that unearthed the artifacts. Lieselotte Bauer, a German scholar driven from academia by the Nazi purge, now working for the resistance. Milan Novak, an archaeologist about to realize his discovery is far more dangerous than he knew. And Elizabeth, Fitz's sister, who never misses a dramatic opportunity—and whose theatrical training proves unexpectedly useful. Thrown together by circumstance, they become the only people standing between the Nazis and a quest nearly eight centuries old.",
-      "The trail winds from Osijek to Vienna to Bucharest—from Ottoman records to flooded tunnels beneath a monastery island. The clues are carved in stone, hidden and encoded in the very layout of ancient buildings.",
-      "This is not a story about a lone hero stopping evil. These are ordinary people who didn't volunteer for this and won't walk away unchanged. Their success depends on cooperation, local knowledge, and trust. The very values authoritarianism seeks to destroy. It's about how the past gets weaponized, and what it takes to reclaim it."
+      "Europe’s scars from the Great War were supposed to be healing. However, the gears of history are already moving forward.",
+	  "An archaeological excavation in Yugoslavia uncovers a clue to a lost fragment of the True Cross, missing since the Crusades. When Nazi operatives steal the discovery, four unlikely allies are drawn into the search: a war veteran, his actress sister, a disillusioned archaeologist, and a German scholar cast out by the new regime.",
+      "They trail the artifact across a continent shifting beneath their feet. But they are not alone. A German officer who sees the relic as more than an artifact, but as a tool to shape belief to shape the future. As tensions rise and their paths begin to converge, the search becomes a race not only to uncover the past but to determine what it means. Once the past is controlled, there may be no stopping what follows.",
+      "Not a story of lone heroes, but of ordinary people caught in forces larger than themselves—and forced to decide what can still be preserved before the world crosses a point of no return."
     ],
-    "tagline": "Some roads lead to discovery. Others lead to no return.",
+   
     "setting": "Europe, 1934",
     "genreDetail": "Historical Thriller",
     "status": "Coming Soon",
