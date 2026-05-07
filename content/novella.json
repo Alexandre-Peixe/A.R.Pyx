@@ -1,19 +1,12 @@
 {
-  "novella": {
-    "heading": "Get the Free Novella",
-    "title": "Hic Non Sunt Dracones",
-    "tagline": "A standalone historical adventure set in 1897, at the edge of a world that still believed there were blank spaces left on the map.",
+  "newsletter": {
+    "title": "On Adventure",
+    "subtitle": "A monthly letter about adventure fiction, history, hidden places, and the stories we use to make sense of the world.",
     "description": [
-      "When Major Jason Havelock sets his sights on a lost city in the Brazilian wilderness, he pulls a reluctant young writer into an expedition shaped by obsession, fading empires, and the last great fantasies of exploration.",
-      "What begins as a romantic adventure turns quickly into something harsher: a journey toward a place shadowed by war, danger, and the collapse of an older way of seeing the world.",
-      "Hic Non Sunt Dracones is a complete standalone novella — part homage to the great adventure stories of the past, part farewell to them, and a first taste of the kind of fiction I write."
+      "On Adventure is where I write about the ideas behind my fiction: the evolution of adventure stories, the pull of lost places, the uses of history, and the strange persistence of myth in modern life.",
+      "Subscribers also get updates on 1934: Caught in the Crossroads, notes from the research behind the novels, and the occasional exclusive extra that won’t appear elsewhere.",
+      "It arrives monthly, quietly, and with substance. No churn, no noise, no endless promotional clutter."
     ],
-    "offer": "Free for newsletter subscribers.",
-    "perks": [
-      "The novella in digital format",
-      "A monthly newsletter on adventure fiction, history, and hidden places",
-      "Early updates on 1934: Caught in the Crossroads and future releases"
-    ],
-    "privacyNote": "No spam, ever. Unsubscribe anytime. Your email stays with me — I respect your privacy."
+    "ctaButton": "Subscribe & Get the Free Novella"
   }
 }
