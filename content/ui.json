@@ -1,8 +1,5 @@
 {
-  "banner": {
-    "text": "?? <strong>This site is under construction.</strong> Something is being written… Check back soon."
-  },
-  "nav": {
+   "nav": {
     "brand": "A.R.Pyx",
     "theNovel": "The Novel",
     "characters": "Characters", 
@@ -15,6 +12,6 @@
     "characters": "Characters",
     "about": "About", 
     "freeNovella": "Free Novella",
-    "copyright": "© 2026 A.R.Pyx. All rights reserved."
+    "copyright": "Â© 2026 A.R.Pyx. All rights reserved."
   }
 }
