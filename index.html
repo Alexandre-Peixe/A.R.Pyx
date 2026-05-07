@@ -53,10 +53,10 @@
 </head>
 <body>
 
-  <!-- Skip to content (accessibility) -->
+  <!-- Skip to content -->
   <a href="#main" class="skip-link">Skip to content</a>
 
-   <!-- ========== NAVIGATION ========== -->
+  <!-- ========== NAVIGATION ========== -->
   <nav class="navbar" id="navbar" aria-label="Main navigation">
     <div class="nav-container">
       <a href="#" class="nav-brand" data-content="nav.brand">A.R.Pyx</a>
@@ -64,10 +64,10 @@
         <span class="hamburger"></span>
       </button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#book" data-content="nav.theNovel">The Novel</a></li>
-        <li><a href="#characters" data-content="nav.characters">Characters</a></li>
-        <li><a href="#author" data-content="nav.about">About</a></li>
         <li><a href="#novella" class="nav-cta" data-content="nav.freeNovella">Free Novella</a></li>
+        <li><a href="#book" data-content="nav.theNovel">The Novel</a></li>
+        <li><a href="#author" data-content="nav.about">About</a></li>
+        <li><a href="#characters" data-content="nav.characters">Characters</a></li>
       </ul>
     </div>
   </nav>
@@ -75,63 +75,15 @@
   <!-- ========== HERO ========== -->
   <header class="hero" id="main">
     <div class="hero-overlay">
-      <p class="hero-tagline" data-content="hero.tagline">A novel by A.R.Pyx</p>
+      <p class="hero-tagline">Historical adventure for readers who like danger, discovery, and the past refusing to stay buried.</p>
       <h1 data-content="hero.title">1934: Caught in the Crossroads</h1>
-      <p class="hero-subtitle" data-content="hero.subtitle">Loading...</p>
+      <p class="hero-subtitle">A debut historical thriller coming later this year. Join the list, get a free standalone novella now, and be first to hear when the novel is released.</p>
       <div class="hero-actions">
-        <a href="#book" class="btn btn-primary" data-content="hero.discoverBtn">Discover the Story</a>
-        <a href="#novella" class="btn btn-secondary" data-content="hero.novellaBtn">Get the Free Novella</a>
+        <a href="#novella" class="btn btn-primary">Get the Free Novella</a>
+        <a href="#book" class="btn btn-secondary">Discover the Novel</a>
       </div>
     </div>
   </header>
-
-  <!-- ========== THE NOVEL ========== -->
-  <section class="section" id="book">
-    <div class="container">
-      <h2 class="section-title" data-content="book.sectionTitle">The Novel</h2>
-      <div class="book-layout">
-        <div class="book-cover">
-          <picture>
-            <img src="assets/1934-A.png"
-                 alt="Cover of 1934: Caught in the Crossroads — showing a vintage European map with crossed routes"
-                 loading="lazy"
-                 width="360"
-                 height="540">
-          </picture>
-        </div>
-        <div class="book-info">
-          <h3 data-content="book.title">1934: Caught in the Crossroads</h3>
-          <p class="book-genre" data-content="book.genre">Historical Thriller — Adventure — Archaeological Mystery</p>
-          
-          <!-- Book description paragraphs will be dynamically populated -->
-          <div id="book-description" data-content-array="book.description">
-            <p>Loading book description...</p>
-          </div>
-
-          <p><em data-content="book.tagline">Some roads lead to discovery. Others lead to no return.</em></p>
-
-          <div class="book-details">
-            <span class="detail"><strong>Setting:</strong> <span data-content="book.setting">Europe, 1934</span></span>
-            <span class="detail"><strong>Genre:</strong> <span data-content="book.genreDetail">Historical Thriller</span></span>
-            <span class="detail"><strong>Status:</strong> <span data-content="book.status">Coming Soon</span></span>
-          </div>
-          <a href="#novella" class="btn btn-primary" data-content="book.ctaButton">Read the novella for free →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== CHARACTERS ========== -->
-  <section class="section section-alt" id="characters">
-    <div class="container">
-      <h2 class="section-title" data-content="characters.sectionTitle">The Cast</h2>
-      <p class="section-intro" data-content="characters.intro">The men and women caught in the crossroads.</p>
-      <div class="characters-grid" id="characters-grid">
-        <!-- Characters will be dynamically populated -->
-        <div class="loading-placeholder">Loading characters...</div>
-      </div>
-    </div>
-  </section>
 
   <!-- ========== FREE NOVELLA / SIGNUP ========== -->
   <section class="section section-cta" id="novella">
@@ -145,35 +97,76 @@
                height="420">
         </div>
         <div class="novella-text">
-          <h2 data-content="novella.heading">Get the Novella — Free</h2>
+          <h2>Get the Free Novella</h2>
           <p class="novella-title-display"><em data-content="novella.title">Hic Non Sunt Dracones</em></p>
-          <p class="novella-tagline" data-content="novella.tagline">1897. A fading learned society. A legendary major with one last gambit. And a young writer who really didn't sign up for this.</p>
-          
-          <!-- Novella description paragraphs will be dynamically populated -->
+          <p class="novella-tagline">A standalone historical adventure. A first taste of the worlds, tensions, and obsessions behind my fiction.</p>
+
           <div id="novella-description" data-content-array="novella.description">
             <p>Loading novella description...</p>
           </div>
 
-          <p class="novella-offer" data-content="novella.offer">Available free to newsletter subscribers.</p>
-          
-          <ul class="novella-perks" id="novella-perks" data-content-array="novella.perks">
-            <li>Loading perks...</li>
+          <p class="novella-offer">Join the mailing list and receive the novella free.</p>
+
+          <ul class="novella-perks">
+            <li>Free standalone novella in digital format</li>
+            <li>Monthly newsletter on adventure fiction, history, and discovery</li>
+            <li>First updates on <em>1934: Caught in the Crossroads</em> before release</li>
           </ul>
-          
+
           <div class="signup-form" aria-label="Newsletter signup form">
             <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="94dcc653-4ca4-4788-9a7a-33d647e52a7d"></script>
           </div>
-          
+
           <p class="privacy-note" data-content="novella.privacyNote">No spam, ever. Unsubscribe anytime. Your email stays with me — I respect your privacy.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ========== ABOUT THE AUTHOR ========== -->
-  <section class="section" id="author">
+  <!-- ========== THE NOVEL ========== -->
+  <section class="section" id="book">
     <div class="container">
-      <h2 class="section-title" data-content="author.sectionTitle">About the Author</h2>
+      <h2 class="section-title">The Upcoming Novel</h2>
+      <p class="section-intro">A historical thriller of relics, ideology, and a Europe approaching the edge.</p>
+
+      <div class="book-layout">
+        <div class="book-cover">
+          <picture>
+            <img src="assets/1934-A.png"
+                 alt="Cover of 1934: Caught in the Crossroads — showing a vintage European map with crossed routes"
+                 loading="lazy"
+                 width="360"
+                 height="540">
+          </picture>
+        </div>
+        <div class="book-info">
+          <h3 data-content="book.title">1934: Caught in the Crossroads</h3>
+          <p class="book-genre" data-content="book.genre">Historical Thriller · Adventure · Archaeological Mystery</p>
+
+          <p><strong>A relic from the Crusades resurfaces, threatening a world already on the brink.</strong></p>
+
+          <div id="book-description" data-content-array="book.description">
+            <p>Loading book description...</p>
+          </div>
+
+          <p><em data-content="book.tagline">Some roads lead to discovery. Others lead to no return.</em></p>
+
+          <div class="book-details">
+            <span class="detail"><strong>Setting:</strong> <span data-content="book.setting">Europe, 1934</span></span>
+            <span class="detail"><strong>Genre:</strong> <span data-content="book.genreDetail">Historical Thriller</span></span>
+            <span class="detail"><strong>Status:</strong> Coming later this year</span></span>
+          </div>
+
+          <a href="#novella" class="btn btn-primary">Get the Free Novella →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT THE AUTHOR ========== -->
+  <section class="section section-alt" id="author">
+    <div class="container">
+      <h2 class="section-title">About the Author</h2>
       <div class="author-layout">
         <div class="author-photo">
           <img src="assets/Arpyx-profile.png"
@@ -184,8 +177,7 @@
         </div>
         <div class="author-bio">
           <h3 data-content="author.name">A.R.Pyx</h3>
-          
-          <!-- Author bio paragraphs will be dynamically populated -->
+          <p>I write historical fiction for readers who want adventure with real weight: hidden histories, moral pressure, and characters forced to act when the world begins to tilt.</p>
           <div id="author-bio" data-content-array="author.bio">
             <p>Loading author bio...</p>
           </div>
@@ -194,18 +186,39 @@
     </div>
   </section>
 
-  <!-- ========== NEWSLETTER SECTION ========== -->
+  <!-- ========== CHARACTERS ========== -->
+  <section class="section" id="characters">
+    <div class="container">
+      <h2 class="section-title">The Cast</h2>
+      <p class="section-intro">Four people, one stolen discovery, and a continent moving toward catastrophe.</p>
+      <div class="characters-grid" id="characters-grid">
+        <div class="loading-placeholder">Loading characters...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWSLETTER ========== -->
   <section class="section section-alt" id="newsletter">
     <div class="container newsletter-box">
-      <h2 data-content="newsletter.title">On Adventure</h2>
-      <p class="newsletter-subtitle" data-content="newsletter.subtitle">A monthly letter about the roads less traveled.</p>
-      
-      <!-- Newsletter description paragraphs will be dynamically populated -->
+      <h2>On Adventure</h2>
+      <p class="newsletter-subtitle">A monthly letter on adventure fiction, history, hidden places, and the stories behind the stories.</p>
+
       <div id="newsletter-description" data-content-array="newsletter.description">
         <p>Loading newsletter description...</p>
       </div>
 
-      <a href="#novella" class="btn btn-primary" data-content="newsletter.ctaButton">Subscribe &amp; Get the Free Novella</a>
+      <p>You’ll also get updates on <em>1934: Caught in the Crossroads</em>, future releases, and the occasional extra for subscribers.</p>
+
+      <a href="#novella" class="btn btn-primary">Subscribe &amp; Get the Free Novella</a>
+    </div>
+  </section>
+
+  <!-- ========== FINAL CTA ========== -->
+  <section class="section">
+    <div class="container newsletter-box">
+      <h2 class="section-title">Start Here</h2>
+      <p class="section-intro">Get the free novella now — and be first to hear when <em>1934: Caught in the Crossroads</em> is released.</p>
+      <a href="#novella" class="btn btn-primary">Get the Free Novella</a>
     </div>
   </section>
 
@@ -214,16 +227,15 @@
     <div class="container">
       <p class="footer-brand" data-content="footer.brand">A.R.Pyx</p>
       <nav class="footer-links" aria-label="Footer navigation">
-        <a href="#book" data-content="footer.theNovel">The Novel</a>
-        <a href="#characters" data-content="footer.characters">Characters</a>
-        <a href="#author" data-content="footer.about">About</a>
-        <a href="#novella" data-content="footer.freeNovella">Free Novella</a>
+        <a href="#novella">Free Novella</a>
+        <a href="#book">The Novel</a>
+        <a href="#author">About</a>
+        <a href="#characters">Characters</a>
       </nav>
       <p class="footer-copy" data-content="footer.copyright">&copy; 2026 A.R.Pyx. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- Load content management system first, then main functionality -->
   <script src="js/content-loader.js"></script>
   <script src="js/main.js"></script>
 </body>
