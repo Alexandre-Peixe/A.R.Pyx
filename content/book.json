@@ -1,20 +1,18 @@
 {
   "book": {
-    "sectionTitle": "The Novel",
+    "sectionTitle": "The Upcoming Novel",
     "title": "1934: Caught in the Crossroads",
     "genre": "Historical Thriller · Adventure · Archaeological Mystery",
-	 "tagline": "A relic from the Crusades resurfaces, threatening a world on the edge.",
-	
+    "tagline": "A relic from the Crusades resurfaces, threatening a world already on the brink.",
     "description": [
-      "Europe’s scars from the Great War were supposed to be healing. However, the gears of history are already moving forward.",
-	  "An archaeological excavation in Yugoslavia uncovers a clue to a lost fragment of the True Cross, missing since the Crusades. When Nazi operatives steal the discovery, four unlikely allies are drawn into the search: a war veteran, his actress sister, a disillusioned archaeologist, and a German scholar cast out by the new regime.",
-      "They trail the artifact across a continent shifting beneath their feet. But they are not alone. A German officer who sees the relic as more than an artifact, but as a tool to shape belief to shape the future. As tensions rise and their paths begin to converge, the search becomes a race not only to uncover the past but to determine what it means. Once the past is controlled, there may be no stopping what follows.",
-      "Not a story of lone heroes, but of ordinary people caught in forces larger than themselves—and forced to decide what can still be preserved before the world crosses a point of no return."
+      "Europe, 1934. The scars of the Great War have not healed, and something older has begun to surface beneath the politics of the age.",
+      "When an archaeological discovery in Yugoslavia points toward a lost fragment of the True Cross, Nazi operatives move quickly to seize it. Four unlikely allies are drawn into a race across a continent sliding toward catastrophe.",
+      "Their search leads through archives, ruins, monasteries, and hidden histories — but the relic is more than an artifact. In the wrong hands, it could become a weapon of power, myth, and belief.",
+      "1934: Caught in the Crossroads is a historical thriller about ideology, memory, and the people caught between the collapsing world behind them and the one rushing forward to replace it."
     ],
-   
     "setting": "Europe, 1934",
     "genreDetail": "Historical Thriller",
-    "status": "Coming Soon",
-    "ctaButton": "Read the novella for free ?"
+    "status": "Coming later this year",
+    "ctaButton": "Get the Free Novella →"
   }
 }
