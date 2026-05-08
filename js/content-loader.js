@@ -54,7 +54,6 @@ class ContentLoader {
 
   populateContent() {
     const elements = document.querySelectorAll('[data-content]');
-
     elements.forEach(element => {
       const contentPath = element.getAttribute('data-content');
       const content = this.getNestedProperty(this.content, contentPath);
@@ -73,12 +72,11 @@ class ContentLoader {
 
   populateArrayContent() {
     const arrayElements = document.querySelectorAll('[data-content-array]');
-
     arrayElements.forEach(element => {
       const contentPath = element.getAttribute('data-content-array');
       const contentArray = this.getNestedProperty(this.content, contentPath);
 
-      if (Array.isArray(contentArray)) {
+      if (contentArray && Array.isArray(contentArray)) {
         if (element.tagName === 'UL') {
           element.innerHTML = contentArray.map(item => `<li>${item}</li>`).join('');
         } else {
@@ -90,7 +88,6 @@ class ContentLoader {
 
   updateSEO() {
     const structuredData = document.querySelector('script[type="application/ld+json"]');
-
     if (structuredData && this.content.seo?.structuredData) {
       structuredData.textContent = JSON.stringify(this.content.seo.structuredData, null, 2);
     }
@@ -102,7 +99,6 @@ class ContentLoader {
 
   handleContentLoadError() {
     const placeholders = document.querySelectorAll('.loading-placeholder');
-
     placeholders.forEach(placeholder => {
       placeholder.textContent = 'Content temporarily unavailable';
       placeholder.style.opacity = '0.6';
