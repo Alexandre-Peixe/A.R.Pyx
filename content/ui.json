@@ -1,15 +1,15 @@
 {
   "nav": {
     "brand": "A.R.Pyx",
-    "freeNovella": "Free Novella",
     "theNovel": "The Novel",
-    "about": "About"
+    "about": "About",
+    "freeNovella": "Free Novella"
   },
   "footer": {
     "brand": "A.R.Pyx",
-    "freeNovella": "Free Novella",
     "theNovel": "The Novel",
     "about": "About",
+    "freeNovella": "Free Novella",
     "copyright": "© 2026 A.R.Pyx. All rights reserved."
   }
 }
