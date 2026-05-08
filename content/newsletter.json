@@ -1,11 +1,10 @@
 {
   "newsletter": {
     "title": "On Adventure",
-    "subtitle": "A monthly letter about adventure fiction, history, hidden places, and the stories we use to make sense of the world.",
+    "subtitle": "A monthly letter on adventure fiction, history, and the ideas behind the stories.",
     "description": [
-      "On Adventure is where I write about the ideas behind my fiction: the evolution of adventure stories, the pull of lost places, the uses of history, and the strange persistence of myth in modern life.",
-      "Subscribers also get updates on 1934: Caught in the Crossroads, notes from the research behind the novels, and the occasional exclusive extra that won’t appear elsewhere.",
-      "It arrives monthly, quietly, and with substance. No churn, no noise, no endless promotional clutter."
+      "Notes on adventure, history, lost places, and the making of fiction.",
+      "Plus updates on 1934: Caught in the Crossroads and future releases."
     ],
     "ctaButton": "Subscribe & Get the Free Novella"
   }
