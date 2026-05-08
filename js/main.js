@@ -6,7 +6,6 @@
 (function () {
   "use strict";
 
-  // ---------- Mobile Navigation Toggle ----------
   const navToggle = document.getElementById("navToggle");
   const navLinks = document.getElementById("navLinks");
 
@@ -16,7 +15,6 @@
       navToggle.setAttribute("aria-expanded", isOpen);
     });
 
-    // Close menu when a link is clicked
     navLinks.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
         navLinks.classList.remove("open");
@@ -25,7 +23,6 @@
     });
   }
 
-  // ---------- Navbar shadow on scroll ----------
   const navbar = document.getElementById("navbar");
 
   if (navbar) {
@@ -42,9 +39,8 @@
     );
   }
 
-  // ---------- Fade-in on scroll (Intersection Observer) ----------
   const fadeElements = document.querySelectorAll(
-    ".book-layout, .char-card, .author-layout, .novella-layout, .newsletter-box"
+    ".book-layout, .author-layout, .novella-layout, .subscribe-box, .newsletter-box"
   );
 
   if (fadeElements.length > 0 && "IntersectionObserver" in window) {
