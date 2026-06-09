@@ -10,6 +10,7 @@ class ContentLoader {
       'content/metadata.json',
       'content/hero.json',
       'content/book.json',
+      'content/characters.json',
       'content/novella.json',
       'content/author.json',
       'content/newsletter.json',
@@ -22,6 +23,7 @@ class ContentLoader {
       await this.loadAllContent();
       this.populateContent();
       this.populateArrayContent();
+      this.populateCharacters();
       this.updateSEO();
       console.log('Content loaded successfully');
     } catch (error) {
@@ -84,6 +86,24 @@ class ContentLoader {
         }
       }
     });
+  }
+
+  populateCharacters() {
+    const charactersGrid = document.getElementById('characters-grid');
+    const characters = this.content.characters?.list;
+
+    if (charactersGrid && characters && Array.isArray(characters)) {
+      charactersGrid.innerHTML = characters.map(character => `
+        <article class="dossier-card">
+          <div class="dossier-stamp">${character.name.charAt(0)}</div>
+          <div class="dossier-role">${character.role || ''}</div>
+          <h3>${character.name}</h3>
+          <div class="dossier-divider"></div>
+          <p class="dossier-tagline">${character.tagline}</p>
+          <div class="dossier-footer">FILE NO. ${character.file || '—'} · MARCH 1934</div>
+        </article>
+      `).join('');
+    }
   }
 
   updateSEO() {
