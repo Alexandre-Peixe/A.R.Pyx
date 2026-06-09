@@ -5,23 +5,27 @@
     "list": [
       {
         "name": "Fitz",
-        "image": "assets/Fitz.jpg",
-        "tagline": "Great War veteran turned security manager. Reluctant hero with unshakeable loyalty."
+        "role": "War Veteran · Security Director",
+        "tagline": "Orphaned by empire, shaped by war. Called back from vacation to a site that should have stayed buried.",
+        "file": "001"
       },
       {
-        "name": "Lotte", 
-        "image": "assets/Lotte.jpg",
-        "tagline": "German scholar driven from academia. Fighting the regime that destroyed her career."
+        "name": "Lotte",
+        "role": "Academic · Resistance Fighter",
+        "tagline": "She overheard what she wasn't meant to hear. Now she can't unhear it.",
+        "file": "002"
       },
       {
         "name": "Liz",
-        "image": "assets/Liz.jpg", 
-        "tagline": "Theatrical performer with perfect timing. Never met a dramatic moment she couldn't seize."
+        "role": "Actress · Uninvited Guest",
+        "tagline": "Archaeology isn't her passion. Drama most certainly is. She insisted on coming.",
+        "file": "003"
       },
       {
         "name": "Milan",
-        "image": "assets/Milan.jpg",
-        "tagline": "Archaeologist who uncovered more than ancient history. His discovery changed everything."
+        "role": "Archaeologist · Reluctant Witness",
+        "tagline": "He found what was buried. Now he fears what it will unbury.",
+        "file": "004"
       }
     ]
   }
