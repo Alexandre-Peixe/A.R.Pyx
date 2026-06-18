@@ -39,6 +39,24 @@
     );
   }
 
+  // Dossier stack accordion
+  const dossierFiles = document.querySelectorAll(".dossier-file");
+  if (dossierFiles.length > 0) {
+    dossierFiles.forEach(function (file) {
+      file.addEventListener("click", function () {
+        const isOpen = this.classList.contains("open");
+        dossierFiles.forEach(function (f) { f.classList.remove("open"); });
+        if (!isOpen) this.classList.add("open");
+      });
+      file.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          this.click();
+        }
+      });
+    });
+  }
+
   const fadeElements = document.querySelectorAll(
     ".book-layout, .author-layout, .novella-layout, .subscribe-box, .newsletter-box"
   );
