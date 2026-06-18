@@ -794,16 +794,23 @@ a:focus-visible {
   box-shadow: 0 3px 10px rgba(44, 36, 32, 0.2);
 }
 
+.dossier-file:nth-child(1) { z-index: 5; }
+.dossier-file:nth-child(2) { z-index: 4; }
+.dossier-file:nth-child(3) { z-index: 3; }
+.dossier-file:nth-child(4) { z-index: 2; }
+.dossier-file:nth-child(5) { z-index: 1; }
+
 .dossier-file.open {
   max-height: 600px;
   margin-bottom: 8px;
-  z-index: 5;
+  z-index: 10;
   box-shadow: 0 8px 24px rgba(44, 36, 32, 0.32);
 }
 
 .dossier-file img {
   width: 100%;
   display: block;
+  mix-blend-mode: multiply;
 }
 
 .dossier-hint {
