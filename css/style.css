@@ -785,7 +785,7 @@ a:focus-visible {
 
 .dossier-file {
   overflow: hidden;
-  max-height: 180px;
+  max-height: 105px;
   cursor: pointer;
   transition: max-height 0.45s ease, box-shadow 0.3s ease, margin-bottom 0.45s ease;
   margin-bottom: -6px;
