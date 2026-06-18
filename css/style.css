@@ -779,26 +779,25 @@ a:focus-visible {
 
 /* ====== DOSSIER STACK ====== */
 .dossier-stack {
+  display: flex;
+  flex-direction: column-reverse;
   max-width: 680px;
   margin: 24px auto 0;
+  background: var(--parchment-dark);
+  isolation: isolate;
 }
 
 .dossier-file {
   overflow: hidden;
   max-height: 105px;
   cursor: pointer;
-  transition: max-height 0.45s ease, box-shadow 0.3s ease, margin-bottom 0.45s ease;
+  transition: max-height 0.45s ease, box-shadow 0.3s ease;
   margin-bottom: -6px;
   position: relative;
   border-radius: 2px;
   box-shadow: 0 3px 10px rgba(44, 36, 32, 0.2);
+  mix-blend-mode: multiply;
 }
-
-.dossier-file:nth-child(1) { z-index: 5; }
-.dossier-file:nth-child(2) { z-index: 4; }
-.dossier-file:nth-child(3) { z-index: 3; }
-.dossier-file:nth-child(4) { z-index: 2; }
-.dossier-file:nth-child(5) { z-index: 1; }
 
 .dossier-file.open {
   max-height: 600px;
@@ -810,7 +809,6 @@ a:focus-visible {
 .dossier-file img {
   width: 100%;
   display: block;
-  mix-blend-mode: multiply;
 }
 
 .dossier-hint {
