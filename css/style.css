@@ -466,6 +466,35 @@ a:focus-visible {
   margin-top: 12px;
 }
 
+.goodreads-cta {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Gold link color on dark novella section */
+.section-cta .goodreads-cta a {
+  color: var(--gold-light);
+}
+
+.section-cta .goodreads-cta a:hover {
+  color: var(--gold);
+}
+
+/* Novel prompt line */
+.book-novella-prompt {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.book-novella-prompt span {
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
 /* ---------- SUBSCRIBE ---------- */
 .subscribe-box {
   max-width: 760px;
