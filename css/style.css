@@ -539,6 +539,10 @@ a:focus-visible {
   margin-top: 48px;
 }
 
+.author-photo {
+  flex-shrink: 0;
+}
+
 .author-photo img {
   width: 200px;
   height: 200px;
@@ -558,6 +562,31 @@ a:focus-visible {
 .author-bio p {
   margin-bottom: 12px;
   color: var(--ink-light);
+}
+
+.author-lenses {
+  list-style: none;
+  margin: 4px 0 20px;
+  padding: 0;
+  text-align: left;
+}
+
+.author-lenses li {
+  position: relative;
+  padding: 6px 0 6px 20px;
+  color: var(--ink-light);
+  border-bottom: 1px solid rgba(44, 36, 32, 0.12);
+}
+
+.author-lenses li:last-child {
+  border-bottom: none;
+}
+
+.author-lenses li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--gold);
 }
 
 /* ---------- NEWSLETTER ---------- */
