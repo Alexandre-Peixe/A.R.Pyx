@@ -1,0 +1,32 @@
+{
+  "characters": {
+    "sectionTitle": "The Cast",
+    "intro": "The men and women caught in the crossroads.",
+    "list": [
+      {
+        "name": "Fitz",
+        "role": "War Veteran · Security Director",
+        "tagline": "Orphaned by empire, shaped by war. Called back from vacation to a site that should have stayed buried.",
+        "file": "001"
+      },
+      {
+        "name": "Lotte",
+        "role": "Academic · Resistance Fighter",
+        "tagline": "She overheard what she wasn't meant to hear. Now she can't unhear it.",
+        "file": "002"
+      },
+      {
+        "name": "Liz",
+        "role": "Actress · Uninvited Guest",
+        "tagline": "Archaeology isn't her passion. Drama most certainly is. She insisted on coming.",
+        "file": "003"
+      },
+      {
+        "name": "Milan",
+        "role": "Archaeologist · Reluctant Witness",
+        "tagline": "He found what was buried. Now he fears what it will unbury.",
+        "file": "004"
+      }
+    ]
+  }
+}
