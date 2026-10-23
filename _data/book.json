@@ -17,8 +17,9 @@
     "setting": "Europe, 1934",
     "genreDetail": "Historical Adventure",
     "status": "Revised edition, November 22, 2026",
-    "ctaButton": "Buy the Ebook →",
-    "ctaButtonPaperback": "Buy the Paperback →",
-    "ctaSubscribe": "Get the Free Novella →"
+    "ctaButton": "Ebook on Amazon →",
+    "ctaButtonPaperback": "Paperback on Amazon →",
+    "ctaSubscribe": "Get the Free Novella →",
+    "ctaButtonKobo": "Ebook on Kobo →"
   }
 }
