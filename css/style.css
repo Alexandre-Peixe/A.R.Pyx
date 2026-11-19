@@ -889,3 +889,10 @@ a:focus-visible {
   opacity: 0.5;
   margin-top: 20px;
 }
+
+.beehiiv-wrap iframe {
+  display: block;
+  width: 440px !important;
+  max-width: 100%;
+  margin: 0 auto !important;
+}
