@@ -520,18 +520,16 @@ a:focus-visible {
 }
 
 .beehiiv-wrap {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 640px;
+  width: 440px;
+  max-width: 100%;
   margin: 0 auto 16px;
 }
 
-.beehiiv-wrap > *,
+.beehiiv-wrap div,
 .beehiiv-wrap iframe {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  max-width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
 }
 
 .privacy-note {
@@ -888,11 +886,4 @@ a:focus-visible {
   color: var(--ink-light);
   opacity: 0.5;
   margin-top: 20px;
-}
-
-.beehiiv-wrap iframe {
-  display: block;
-  width: 440px !important;
-  max-width: 100%;
-  margin: 0 auto !important;
 }
