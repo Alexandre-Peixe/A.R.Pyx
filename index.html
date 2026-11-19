@@ -27,20 +27,62 @@
 
   <!-- Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Book",
-    "name": "1934: Caught in the Crossroads",
-    "author": {
-      "@type": "Person",
-      "name": "A.R. Pyx"
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "https://arpyxbooks.com/#book",
+  "name": "1934: Caught in the Crossroads",
+  "url": "https://arpyxbooks.com/#book",
+  "image": "https://arpyxbooks.com/assets/1934-A.png",
+  "author": {
+    "@type": "Person",
+    "@id": "https://arpyxbooks.com/#author",
+    "name": "A.R. Pyx",
+    "url": "https://arpyxbooks.com/#author",
+    "sameAs": [
+      "https://www.goodreads.com/author/show/69534592.A_R_Pyx",
+      "https://www.amazon.com/author/arpyxbooks",
+      "https://www.instagram.com/arpyxbooks/",
+      "https://www.facebook.com/arpyxbooks/"
+    ]
+  },
+  "isPartOf": {
+    "@type": "BookSeries",
+    "name": "Echoes of Lost Worlds"
+  },
+  "position": 1,
+  "genre": ["Historical Adventure", "Historical Thriller"],
+  "about": ["True Cross", "1930s Europe", "Orient Express", "Ottoman siege of Vienna 1683"],
+  "inLanguage": "en",
+  "datePublished": "2026-06-18",
+  "description": "March 1934. Railway works in Yugoslavia uncover a sealed basement holding Ottoman soldiers from the 1683 siege of Vienna and a Grand Vizier's inventory listing the True Cross. When Nazi agents steal it in Ljubljana, four amateurs follow the trail across Europe, slowed by passports, police statements and an employer who wants a progress report. Action violence, no sex, mild language.",
+  "sameAs": [
+    "https://www.goodreads.com/book/show/253660364-1934",
+    "https://www.goodreads.com/book/show/254371946-1934"
+  ],
+  "workExample": [
+    {
+      "@type": "Book",
+      "bookFormat": "https://schema.org/EBook",
+      "isbn": "9786502060162",
+      "url": "https://www.amazon.com/dp/B0H5W8Z2LV"
     },
-    "genre": ["Historical Adventure", "Adventure"],
-    "bookFormat": "EBook",
-    "inLanguage": "en",
-    "description": "A 1934 archaeological adventure spanning Yugoslavia, Austria, and Romania."
-  }
-  </script>
+    {
+      "@type": "Book",
+      "bookFormat": "https://schema.org/EBook",
+      "isbn": "9786502060162",
+      "url": "https://www.kobo.com/en/ebook/1934-caught-in-the-crossroads"
+    },
+    {
+      "@type": "Book",
+      "bookFormat": "https://schema.org/Paperback",
+      "isbn": "9786502058770",
+      "numberOfPages": 290,
+      "url": "https://www.amazon.com/dp/6502058779"
+    }
+  ]
+}
+</script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -118,7 +160,7 @@
           </div>
 
           <div class="book-cta-buttons">
-            <a href="https://www.kobo.com/nl/en/ebook/1934-caught-in-the-crossroads" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButtonKobo">{{ site.data.book.book.ctaButtonKobo | escape }}</a>
+            <a href="https://www.kobo.com/en/ebook/1934-caught-in-the-crossroads" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButtonKobo">{{ site.data.book.book.ctaButtonKobo | escape }}</a>
             <a href="https://www.amazon.com/dp/B0H5W8Z2LV" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButton">{{ site.data.book.book.ctaButton | escape }}</a>
             <a href="https://www.amazon.com/dp/6502058779" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButtonPaperback">{{ site.data.book.book.ctaButtonPaperback | escape }}</a>
           </div>
