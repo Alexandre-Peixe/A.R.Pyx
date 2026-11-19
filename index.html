@@ -158,11 +158,22 @@
             <span class="detail"><strong>Status:</strong> <span data-content="book.status">{{ site.data.book.book.status | escape }}</span></span>
           </div>
 
-          <div class="book-cta-buttons">
-            <a href="https://www.kobo.com/en/ebook/1934-caught-in-the-crossroads" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButtonKobo">{{ site.data.book.book.ctaButtonKobo | escape }}</a>
-            <a href="https://www.amazon.com/dp/B0H5W8Z2LV" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButton">{{ site.data.book.book.ctaButton | escape }}</a>
-            <a href="https://www.amazon.com/dp/6502058779" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButtonPaperback">{{ site.data.book.book.ctaButtonPaperback | escape }}</a>
+            <div class="book-cta-buttons">
+            <div class="store-row">
+              <span class="store-label">Kobo</span>
+              <div class="store-buttons">
+                <a href="https://www.kobo.com/en/ebook/1934-caught-in-the-crossroads" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButtonKobo">{{ site.data.book.book.ctaButtonKobo | escape }}</a>
+              </div>
+            </div>
+            <div class="store-row">
+              <span class="store-label">Amazon</span>
+              <div class="store-buttons">
+                <a href="https://www.amazon.com/dp/B0H5W8Z2LV" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButton">{{ site.data.book.book.ctaButton | escape }}</a>
+                <a href="https://www.amazon.com/dp/6502058779" class="btn btn-primary" target="_blank" rel="noopener" data-content="book.ctaButtonPaperback">{{ site.data.book.book.ctaButtonPaperback | escape }}</a>
+              </div>
+            </div>
           </div>
+          
           <div class="book-novella-prompt">
             <span>Want to meet them before you commit? Read the Prelude Chapters, free:</span>
             <a href="#subscribe" class="btn btn-primary" data-content="book.ctaSubscribe">{{ site.data.book.book.ctaSubscribe | escape }}</a>
