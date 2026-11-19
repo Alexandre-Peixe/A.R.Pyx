@@ -520,8 +520,18 @@ a:focus-visible {
 }
 
 .beehiiv-wrap {
-  margin: 0 auto 16px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   max-width: 640px;
+  margin: 0 auto 16px;
+}
+
+.beehiiv-wrap > *,
+.beehiiv-wrap iframe {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100%;
 }
 
 .privacy-note {
